@@ -1,7 +1,7 @@
 import makeStore from '@thefrontend/contextstore'
 
 const state = {
-  message: 'Hello Universe!'
+  message: 'Full-Stack Developer.'
 }
 
 export const { Provider, useStore } = makeStore(state)
